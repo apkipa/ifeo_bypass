@@ -57,8 +57,8 @@ fn main() -> Result<(), Box<dyn Error>> {
 
   std::process::Command::new(&args[1])
                         .args(iterator)
-						.spawn()
-						.unwrap();
+                        .spawn()
+                        .unwrap();
 
   Ok(())
 }
